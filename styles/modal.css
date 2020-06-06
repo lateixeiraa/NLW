@@ -1,0 +1,95 @@
+#modal {
+    /* cabe aqui todas as alterações correspondente
+    a tela que aparece*/
+    
+    background-color: #073015ff;
+
+    height: 100vh;
+    width: 210vh;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ms;
+}
+
+#modal.hide {
+    display: none;
+}
+
+#modal .contente {
+    color:#073015;
+
+    width: 420px;
+}
+
+#modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 48px;
+}
+
+#modal .header a {
+    background-image: url("../assets/x.svg");
+
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+
+    font-size: 0.01px;
+}
+
+#modal .header h1 {
+    /* nome pontos de coleta */
+    color: white;
+
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal form label {
+    font-size: 14px;
+    line-height: 16px;
+
+    display: block;
+    margin-bottom: 8px;
+}
+
+#modal form .field {
+    display: flex;
+}
+
+#modal form input {
+    /* caixinha que coloca a resposta */
+    flex: 1;
+
+    background-color: white;
+    border-radius: 8px 0 0 8px;
+    border: 0;
+
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #073015;
+}
+
+#modal form button {
+    /* variações do botão de pesquisar */
+    width: 72px;
+    height: 72px;
+
+    background-color: #179441; /* #073015; */
+
+    border: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+#model form button:hover {
+    background-color: #2fb85e;
+}
