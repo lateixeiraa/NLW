@@ -1,4 +1,4 @@
-# NextLevelWeek
+# NLW
 HTML | CSS | Javascript
 
 O Next Level Week é um evento, realizado pela Rocketseat com o intuito de desenvolver uma aplicação do zero em 7 dias.
