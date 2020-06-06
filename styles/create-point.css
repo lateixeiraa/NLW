@@ -21,14 +21,15 @@
     align-items: center;
 }
 
-#page-create-point header a span{ /*iconezinho da busca*/
+#page-create-point header a span {
+    /* icone de busca */
+    
     margin-right: 16px;
-    background-image: url('../assets/arrow-left.svg');
-
     display: flex;
-
+    
+    background-image: url('../assets/log-in.svg');
     width: 20px; 
-    height: 24px; 
+    height: 20px; 
 }
 
 form{
